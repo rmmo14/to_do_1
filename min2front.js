@@ -13,5 +13,6 @@ function mintoFront(arr) {
     arr[0] = min;
     arr[index] = holder;
     console.log('see', arr);
+    return arr;
 }
 mintoFront([2, 3, 1, 4, 5, -1]);
