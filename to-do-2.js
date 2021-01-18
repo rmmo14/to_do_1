@@ -38,10 +38,10 @@ function rotateArr(arr, shiftBy) {
     //     arr[i] = arr[newIndex];
     //     arr[newIndex] = holder;
     // }
-    // console.log('rotated', arr)
-    // return arr;
+    console.log('rotated', arr)
+        // return arr;
 }
-rotateArr([4, 5, 6, 7], 1);
+rotateArr([4, 5, 6, 7], -1);
 
 function filterRange(arr, min, max) {
     var count;
